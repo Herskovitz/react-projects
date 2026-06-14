@@ -1,0 +1,97 @@
+    [
+        {
+            "recipeName": "Chocolate Chip Cookies",
+            "cuisine": "American",
+            "calories": 600,
+            "ingredients": [
+                "Sugar",
+                "Oil",
+                "Eggs",
+                "Vanilla Sugar",
+                "Baking Powder",
+                "Baking Soda",
+                "Chocolate Chips"
+            ],
+            "directions": [
+                "Combine sugar, oil and eggs in a bowl",
+                "Add Flour, Vanilla Sugar, Baking Powder and Baking Soda",
+                "Beat for 5 minutes",
+                "Add Chocolate Chips",
+                "Roll into balls and spread out on a cookie sheet",
+                "Bake on 350 for 10 min"
+            ]
+        },
+        {
+            "recipeName": "Tomato Dip",
+            "cuisine": "Italian",
+            "calories": 200,
+            "ingredients": [
+                "Plum Tomatoes",
+                "Garlic",
+                "Hot Cherry Peppers",
+                "Salt",
+                "Oil"
+            ],
+            "directions": [
+                "Blend all ingredients until you reach desired consistency"
+            ]
+        },
+        {
+            "recipeName": "Yummy Salad",
+            "cuisine": "American",
+            "calories": 350,
+            "ingredients": [
+                "Romaine Lettuce",
+                "Red Cabbage",
+                "Persian Cucumbers",
+                "Chickpeas",
+                "Craisins",
+                "Slivered Almonds",
+                "Caesar Dressing",
+                "Caesar Croutons"
+            ],
+            "directions": [
+                "Toss all ingredients except croutons",
+                "Top with croutons"
+            ]
+        },
+        {
+            "recipeName": "Eggplant Dip",
+            "cuisine": "American",
+            "calories": 200,
+            "ingredients": [
+                "Eggplant",
+                "Oil",
+                "Eggs",
+                "Garlic",
+                "Salt"
+            ],
+            "directions": []
+        },
+        {
+            "recipeName": "Cheese Bread",
+            "cuisine": "French",
+            "calories": 550,
+            "ingredients": [],
+            "directions": []
+        },
+        {
+            "recipeName": "Lemon Pepper Baked Fish",
+            "cuisine": "Italian",
+            "calories": 410,
+            "ingredients": [
+                "Salmon",
+                "Lemon Juice",
+                "Lemon Pepper Spice",
+                "Salt",
+                "Black Pepper"
+            ],
+            "directions": [
+                "Mix lemon juice with spices",
+                "Pour over salmon",
+                "Marinade for an hour",
+                "Bake covered on 400 for 30 minutes",
+                "Uncover and bake for additional 10 minutes"
+            ]
+        }
+    ]

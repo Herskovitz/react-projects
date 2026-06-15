@@ -23,10 +23,10 @@ function RecipeFeature({ recipe }: Props) {
                 </div>
                 <div className="row">
                     <div className="col-6 border recipe-detail">
-                        {recipe.ingredients.length > 0 && <RecipeIngredients recipe={recipe} />}
+                        {recipe.ingredients.length > 0 ? <RecipeIngredients recipe={recipe} /> : <p>There are no ingredients for this recipe yet</p>}
                     </div>
                     <div className="col-6 border recipe-detail" >
-                        <RecipeDirections recipe={recipe} />
+                        {recipe.directions.length > 0 ? <RecipeDirections recipe={recipe} /> : <p>There are no directions for this recipe yet</p>}
                     </div>
                 </div>
             </article >

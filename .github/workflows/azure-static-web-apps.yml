@@ -3,7 +3,7 @@ name: Azure Static Web Apps CI/CD
 on:
   push:
     branches:
-      - main  # Change if your branch is different
+      - main  
 
 jobs:
   build_and_deploy:
@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Use your Node.js version
+          node-version: '24'  # Use your Node.js version
 
       - name: Install dependencies
         run: npm install

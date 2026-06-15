@@ -8,20 +8,21 @@ on:
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
-    name: Build and Deploy Job
     steps:
       - uses: actions/checkout@v3
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '24'  # Use your Node.js version
+          node-version: '24'
 
       - name: Install dependencies
         run: npm install
+        working-directory: react-data-flow-hw
 
       - name: Build
         run: npm run build
+        working-directory: react-data-flow-hw
 
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
@@ -29,5 +30,5 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "react-data-flow-hw"              # Root of your app source code
-          output_location: "dist"        # Folder with built files (Vite uses 'dist')
+          app_location: "react-data-flow-hw"
+          output_location: "dist"

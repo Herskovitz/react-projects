@@ -3,7 +3,7 @@ type Props = { recipes: IRecipe[] }
 function RecipeList({ recipes }: Props) {
     return (
         <>
-            <table className="table table-bordered">
+            <table className="table table-bordered recipe-section">
                 <thead>
                     <tr>
                         <th scope="col">Recipe Name</th>

@@ -168,6 +168,11 @@
   overflow-y: auto;
 }
 
+.recipe-section {
+  max-height: 325px;
+  overflow-y: auto;
+}
+
 .recipe-spec {
   font-weight: bold;
 }
